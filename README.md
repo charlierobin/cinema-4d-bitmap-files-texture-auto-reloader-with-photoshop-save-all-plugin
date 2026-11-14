@@ -18,6 +18,8 @@ So the only slight concession to housekeeping is a “Clear data” command, whi
 
 I think we found that nobody ever really used this. Even on fairly bitmap heavy projects, in relative terms the size of the data never got THAT big, even at the end of a day’s work. (Compared to the size of everything else that was being wrangled. It is, after all, just a bunch of strings and numbers.)
 
+All only tested on Macintosh, up to Catalina 10.15.7, Cinema 4D Mac 2023, Adobe Photoshop 2020 for Mac. (But I don’t think there’s any huge reason why it shouldn’t all be fairly happy on other platforms.)
+
 ## Installation
 
 Put the TextureAutoReload into `your-cinema4d-app-folder ▶︎ plugins` folder, and launch (or restart) Cinema 4D. (Simply reloading plugins won’t do it. I think.)
