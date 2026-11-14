@@ -6,7 +6,7 @@ It skips any unsaved documents, as this was the behaviour I and everyone else in
 
 There’s no real interface: you just turn it on, it runs until (1) you quit, (2) you turn it off, or (3) you reload your plugins or (4) there’s an error (check the Cinema 4D Python console if you suspect this).
 
-https://github.com/user-attachments/assets/a1c82e3b-edfd-4186-af8a-b9e4dafca038
+https://github.com/user-attachments/assets/8548e425-e8de-44c4-b13b-6a4f7501205a
 
 Tracking data is stored as a simple dictionary: the key is the full path to the bitmap file, the data is the file’s last modification date/time.
 
