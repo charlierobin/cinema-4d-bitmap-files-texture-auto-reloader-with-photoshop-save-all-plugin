@@ -45,7 +45,7 @@ At the end, we have a `finally`, restoring the original `app.activeDocument`.
 
 That’s basically it, all wrapped in a few `try` blocks to hopefully catch the most likely problems and handle them (stop, log, proceed, alert) sensibly.
 
-Because (in up to Photoshop 2020) you can’t disable individual event triggers (only all or none), at some point an `enabled` preference was added, with a simple dialog box for editing that pref. (And then, later, the floating window slider.)
+Because (in up to Photoshop 2020) you can’t disable individual event triggers (only all or none), at some point an `enabled` preference was added, with a simple dialog box `PhotoshopSaveAll_Prefs_DialogBox.jsx` for editing that pref. (And then, later, the floating window slider.)
 
 Therefore this `enabled` only applies when `isEvent == true`.
 
