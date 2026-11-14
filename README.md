@@ -20,11 +20,13 @@ I think we found that nobody ever really used this. Even on fairly bitmap heavy 
 
 Put the TextureAutoReload into `your-cinema4d-app-folder ▶︎ plugins` folder, and launch (or restart) Cinema 4D. (Simply reloading plugins won’t do it. I think.)
 
-# Bonus: Adobe Photoshop 2020 "Save All" Plugin Command
+# Bonus: Adobe Photoshop 2020 “Save All” Plugin Command
 
 Another simple scripted plugin that adds a “Save All” command to Adobe Photoshop.
 
-Again, the UI is very simple: a preference to indicating whether or not “Save All” is enabled.
+Again, the UI is very simple: a preference to indicating whether or not “Save All” is enabled. Note that this preference ONLY applies when the plugin is being run from a Photoshop event trigger. If you’re running directly from the `scripts` menu, or via a menu with an attached keyboard shortcut, it ALWAYS runs.
+
+The script runs though all your open Photoshop documents, and saves them all. It skips any unsaved documents, ie: ones that have not yet been modified, or ones that have been modified but not yet saved for the first time to disk.
 
 ## Installation
 
@@ -38,7 +40,7 @@ If you want this as well, you need to put the `SaveAllPanel` folder into your `~
 
 The palette sets the same global preference that the script dialog box sets, ie: setting it in one place should be reflected in the other.
 
-Note that this enabled preference ONLY works when you’re using the script triggered via `Photoshop > File > Scripts > Script Event Manager…`. This is because there’s no way (in 2020 at least) to disabled individual Photoshop event triggers. But if/when you run the script as a menu command (with a keyboard shortcut, for instance) it ALWAYS runs, regardless of whether or not this preference is enabled.
+Note that this enabled preference ONLY works when you’re using the script triggered via `Photoshop ▶︎ File ▶︎ Scripts ▶︎ Script Event Manager…`. This is because there’s no way (in 2020 at least) to disabled individual Photoshop event triggers. But if/when you run the script as a menu command (with a keyboard shortcut, for instance) it ALWAYS runs, regardless of whether or not this preference is enabled.
 
 # Nota Bene
 
