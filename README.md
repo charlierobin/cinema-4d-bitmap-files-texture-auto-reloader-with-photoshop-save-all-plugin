@@ -6,6 +6,8 @@ It skips any unsaved documents, as this was the behaviour I and everyone else in
 
 There’s no real interface: you just turn it on, it runs until (1) you quit, (2) you turn it off, or (3) you reload your plugins or (4) there’s an error (check the Cinema 4D Python console if you suspect this).
 
+https://github.com/user-attachments/assets/a1c82e3b-edfd-4186-af8a-b9e4dafca038
+
 Tracking data is stored as a simple dictionary: the key is the full path to the bitmap file, the data is the file’s last modification date/time.
 
 Every few seconds, the plugin queries your project’s assets, gets paths, looks at them on disk and compares modification dates with the stored last known one. If there has been a change, it reloads that bitmap. (It doesn’t warn about any bitmaps which are missing. That’s for you to sort out via `Window` ▶︎ `Project Asset Inspector`, or similar.)
