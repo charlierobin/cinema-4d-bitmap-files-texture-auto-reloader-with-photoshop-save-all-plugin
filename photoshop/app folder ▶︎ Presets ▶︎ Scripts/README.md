@@ -61,5 +61,5 @@ https://www.smashingmagazine.com/2013/07/introduction-to-photoshop-scripting/
 
 https://github.com/Adobe-CEP/CEP-Resources/blob/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting/photoshop-scripting-guide-2020.pdf
 
-I think the last time all of this was ever used in anger for any great amount of time by a great many users was 2019 or so, hence the “last“ version of Photoshop listed being 2020 (21.2.5). I know I’ve continued to use it all on my Mac (Catalina 10.15.7), but I don’t have any idea what happens with any of this stuff with newer versions.
+I think the last time all of this was ever used in anger for any great amount of time by a great many users was 2019 or so, hence the “last“ version of Photoshop listed being 2020 (21.2.5). I know I’ve continued to use it all on my Mac (Catalina 10.15.7) in the years since, up to the current day, but I don’t have any idea what happens with any of this stuff on newer later versions.
 
