@@ -36,20 +36,37 @@ The three script files go into your Photoshop install’s `▶︎ Presets ▶︎
 
 ### Floating Palette Panel
 
-If you want this as well, you need to put the `SaveAllPanel` folder into your `~Library ▶︎ Application Support ▶︎ Adobe ▶︎ CEP ▶︎ extensions` directory. (Again, there are possibly other places just as good. Again, I never bothered checking it out! I’m a bit lazy that way…) If running, Photoshop must be restarted.
+If you want this as well, you need to put the `SaveAllPanel` folder into your `~Library ▶︎ Application Support ▶︎ Adobe ▶︎ CEP ▶︎ extensions` directory. (Again, there are possibly other places just as good. Again, I never bothered checking it out. I’m a bit lazy that way…) If running, Photoshop must be restarted.
 
 The palette sets the same global preference that the script dialog box sets, ie: setting it in one place should be reflected in the other.
 
 Note that this enabled preference ONLY works when you’re using the script triggered via `Photoshop ▶︎ File ▶︎ Scripts ▶︎ Script Event Manager…`. This is because there’s no way (in 2020 at least) to disabled individual Photoshop event triggers. But if/when you run the script as a menu command (with a keyboard shortcut, for instance) it ALWAYS runs, regardless of whether or not this preference is enabled.
 
+<img width="338" height="232" alt="Screenshot 2026-11-14 at 11 02 11" src="https://github.com/user-attachments/assets/ba2fdaf3-a974-4028-9602-74d43fa9de2d" />
+
 # Nota Bene
 
 In both cases, I wrote and fine-tuned these things to specifically cater for the way I found myself working when using Cinema 4D with Photoshop.
 
-I just got so fed up working on multiple bits of artwork in Photoshop, having to save them all individually (usually forgetting a few and then having to go back to them), and then switching to Cinema 4D to hit `Reload Textures`, and then switching back to Photoshop, repeating ad nauseam all day long.
+I just got so fed up working on multiple bits of artwork in Photoshop, having to save them all individually (usually forgetting a few and then having to go back to them), and then switching to Cinema 4D to hit `Reload Textures`, and then switching back to Photoshop, repeating ad nauseam all day long. A fellow has better things to do with his time…
 
 So you might well find some aspects of them here and there a bit idiosyncratic, but that’s likely down to it just being the way I liked it. I didn’t really write them as “general purpose” products for outside distribution.
 
 I just wanted to be able to have Cinema 4D in the background, viewport/render visible, with my Photoshop windows on top, to be able to paint in any of the windows, hit `Save` ONCE, and have the background update automatically.
 
+## A few thoughts about the Photoshop Save All Extension
+
+<img width="1251" height="1511" alt="Screenshot 2026-11-14 at 11 01 46" src="https://github.com/user-attachments/assets/91b95a44-99fa-4ddb-a190-61af7a5c52db" />
+
+This is a weird one, as I wrote it for myself, used it happily for years, and then other people saw it and I found myself catering for two slightly different scenarios:
+
+(1) people in the studio who wanted to have “save all” trigger when they saved any of their open documents, and didn’t want to mess around with keyboard shortcuts (ie: moving command S from “Save” to the Scripts menu item).
+
+<img width="1338" height="824" alt="Screenshot 2026-11-14 at 10 59 42" src="https://github.com/user-attachments/assets/a38af7d0-fd62-4b4c-95d3-349809e562c9" />
+
+(2) people who didn’t want the save all happening automatically when they hit command S, but wanted it on its own dedicated shortcut. (Which usually turned out to be control command S, as that was the only vaguely intuitive one remaining free, all the others already occupied by existing Photoshop menu items.)
+
+<img width="2324" height="2034" alt="Screenshot 2026-11-14 at 11 11 16" src="https://github.com/user-attachments/assets/a8fd7a7c-41e6-47cb-b7c5-d3fa29f1e1c4" />
+
+If I had my druthers, I’d probably not be so accommodating again. But I don’t have my druthers. They went missing decades ago. I think they might be at the bottom of the sock drawer. That or the dog or the cat ate them.
 
