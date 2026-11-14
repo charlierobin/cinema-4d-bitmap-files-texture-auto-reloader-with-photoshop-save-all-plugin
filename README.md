@@ -70,3 +70,7 @@ This is a weird one, as I wrote it for myself, used it happily for years, and th
 
 If I had my druthers, I’d probably not be so accommodating again. But I don’t have my druthers. They went missing decades ago. I think they might be at the bottom of the sock drawer. That or the dog or the cat ate them.
 
+<img width="200" height="200" alt="Screenshot 2026-11-14 at 13 29 01" src="https://github.com/user-attachments/assets/7f6abb6e-f139-45bf-8596-1c22d3327147" /> <img width="200" height="200" alt="Screenshot 2026-11-14 at 13 16 26" src="https://github.com/user-attachments/assets/aa5512d9-66a5-4fb7-b590-a429c692f536" />
+
+
+
