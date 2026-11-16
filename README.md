@@ -1,6 +1,8 @@
-# Cinema 4D 2023 Texture Reloader Plugin
+# Cinema 4D 2023 Texture Refresh/Reloader Plugin
 
-A simple Cinema 4D Python plugin that runs a “test” routine every few seconds (via C4D threading) which checks to see if any of the bitmap files referred to in your project’s materials have been modified (by an external application – in my case, Photoshop, always Photoshop).
+A Cinema 4D 2023 (Mac-tested only) plugin which automatically refreshes any bitmap files (used in materials) which have been modified by an external app, and a Photoshop extension which adds a "Save all" command
+
+Runs a “test” routine every few seconds (via C4D threading) which checks to see if any of the bitmap files referred to in your project’s materials have been modified (by an external application – in my case, Photoshop, always Photoshop).
 
 It skips any unsaved documents, as this was the behaviour I and everyone else in the studio wanted.
 
@@ -10,7 +12,7 @@ https://github.com/user-attachments/assets/8548e425-e8de-44c4-b13b-6a4f7501205a
 
 Tracking data is stored as a simple dictionary: the key is the full path to the bitmap file, the data is the file’s last modification date/time.
 
-Every few seconds, the plugin queries your project’s assets, gets paths, looks at them on disk and compares modification dates with the stored last known one. If there has been a change, it reloads that bitmap. (It doesn’t warn about any bitmaps which are missing. That’s for you to sort out via `Window` ▶︎ `Project Asset Inspector`, or similar.)
+Every few seconds, the plugin queries your project’s assets, gets paths, looks at them on disk and compares modification dates with the stored last known one. If there has been a change, it refreshes, ie: reloads that bitmap. (It doesn’t warn about any bitmaps which are missing. That’s for you to sort out via `Window` ▶︎ `Project Asset Inspector`, or similar.)
 
 Because there’s no effort to track which files are no longer being referenced/tracked (the plugin doesn’t remove data when you close a project or switch to another one), the data dictionary slowly gets bigger and bigger: depending, obviously, on how many projects you open throughout your session and how many bitmaps they reference.
 
