@@ -1,4 +1,4 @@
-# Cinema 4D 2023 Texture Reloader Plugin
+# Cinema 4D 2023 Automatic Texture Updater/Reloader Plugin
 
 When you set the plug in running, it launches a Cinema 4D thread…
 
@@ -22,7 +22,7 @@ https://developers.maxon.net/docs/py/2023_2/modules/c4d.documents/index.html?hig
 
 If it’s the first time an external file has been encountered, its date/time modified is stored in the global dictionary `g_Data`. If it’s already in `g_Data`, the last mod date is compared with the current one, and if it’s been modified by an external app, it’s scheduled for reload (`modifiedShaders`). Then the modified date/time is updated.
 
-For each shader in modifiedShaders, we mark for reload with `c4d.CallButton( shader, c4d.BITMAPSHADER_RELOADIMAGE )`:
+For each shader in modifiedShaders, we mark for updating/reloading with `c4d.CallButton( shader, c4d.BITMAPSHADER_RELOADIMAGE )`:
 
 https://developers.maxon.net/docs/py/2023_2/modules/c4d/index.html?highlight=c4d.callbutton#c4d.CallButton
 
