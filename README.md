@@ -1,6 +1,6 @@
 # Cinema 4D 2023 Texture Refresh/Reloader Plugin
 
-A Cinema 4D 2023 (Mac-tested only) plugin which automatically refreshes any bitmap files (used in materials) which have been modified by an external app, and a Photoshop extension which adds a "Save all" command
+A Cinema 4D 2023 (Mac-tested only) plugin which automatically updates (refreshes/reloads) any bitmap files (used in materials) which have been updated/modified by an external app, and a Photoshop extension which adds a "Save all" command
 
 Runs a “test” routine every few seconds (via C4D threading) which checks to see if any of the bitmap files referred to in your project’s materials have been modified (by an external application – in my case, Photoshop, always Photoshop).
 
@@ -76,7 +76,12 @@ This is a weird one, as I wrote it for myself, used it happily for years, and th
 
 If I had my druthers, I’d probably not be so accommodating again. But I don’t have my druthers. They went missing decades ago. I think they might be at the bottom of the sock drawer. That or the dog or the cat ate them.
 
-<img width="200" height="200" alt="Screenshot 2026-11-14 at 13 29 01" src="https://github.com/user-attachments/assets/7f6abb6e-f139-45bf-8596-1c22d3327147" /> <img width="200" height="200" alt="Screenshot 2026-11-14 at 13 16 26" src="https://github.com/user-attachments/assets/aa5512d9-66a5-4fb7-b590-a429c692f536" />
+<img width="200" height="200" alt="max the dog" src="https://github.com/user-attachments/assets/7f6abb6e-f139-45bf-8596-1c22d3327147" /> <img width="200" height="200" alt="georgy the cat" src="https://github.com/user-attachments/assets/aa5512d9-66a5-4fb7-b590-a429c692f536" />
 
+As time permits I’m going to clean up and upload a few enhancements that were made over the years to these things, or sometimes not even enhancements: just think of these variations as riffing on the single core idea: getting Photoshop and Cinema 4D to work nicely together, Photoshop for editing bitmaps, Cinema 4D automatically reloading/updating/refreshing in the background.
 
+One of those first variations was ditching the idea of save all in Photoshop, and instead having the app automatically saving on brush strokes, image adjustments, adjustment layers, clone stamps, some filters (mainly blurs and sharpens) and a couple of other bits and pieces.
 
+That idea is here:
+
+https://github.com/charlierobin/photoshop-autosave-on-painting-brush-stokes-etc
