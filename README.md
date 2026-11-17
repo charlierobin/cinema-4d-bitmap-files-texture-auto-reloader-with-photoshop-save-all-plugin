@@ -38,7 +38,9 @@ The script runs though all your open Photoshop documents, and saves them all. It
 
 ### Script Plugins
 
-The three script files go into your Photoshop install’s `▶︎ Presets ▶︎ Scripts` directory. (Possibly there are other shared common install locations they could go? I never bothered investigating, I must admit.) Photoshop has to be restarted.
+~~The three script files go into your Photoshop install’s `▶︎ Presets ▶︎ Scripts` directory. (Possibly there are other shared common install locations they could go? I never bothered investigating, I must admit.) Photoshop has to be restarted.~~
+
+This is wrong. The scripts can be anywhere, I think. It was all so long ago…
 
 ### Floating Palette Panel
 
