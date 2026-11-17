@@ -1,4 +1,4 @@
-# Cinema 4D 2023 Texture Refresh/Reloader Plugin
+# Cinema 4D Automatic Texture Updater/Refresh/Reloader Plugin
 
 A Cinema 4D 2023 (Mac-tested only) plugin which automatically updates (refreshes/reloads) any bitmap files (used in materials) which have been updated/modified by an external app, and a Photoshop extension which adds a "Save all" command
 
